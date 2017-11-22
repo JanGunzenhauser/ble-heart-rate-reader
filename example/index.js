@@ -1,4 +1,4 @@
-var BleHeartRateReader = require('../lib/BleHeartRateReader');
+var BleHeartRateReader = require('../lib');
 var hrm = new BleHeartRateReader();
 
 hrm.on('connection', function(peripheral) {
