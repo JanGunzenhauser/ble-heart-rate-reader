@@ -9,7 +9,7 @@ This was developed on Mac OS High Sierra and tested with a [Polar H7](https://su
 ### **Example**: 
 ```
 // import + create instance
-var BleHeartRateReader = require('../lib/BleHeartRateReader');
+var BleHeartRateReader = require('../lib');
 var hrm = new BleHeartRateReader();
 
 // listen for connection
